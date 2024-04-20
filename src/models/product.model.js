@@ -7,6 +7,11 @@ const productSchema = new mongoose.Schema({
         default : 'Product'
     },
 
+    avatar : {
+        type : String,
+        required : true
+    },
+
     productDescription : {
         type : String,
         required : true,
